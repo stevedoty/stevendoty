@@ -1,11 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function Navbar() {
+const Navbar = () => {
   return (
     <div className="Navbar">
+      <ul>
+        <h1>hello</h1>
 
+
+
+      </ul>
     </div>
   );
 }
