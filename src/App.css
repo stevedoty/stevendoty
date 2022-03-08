@@ -7,15 +7,27 @@
   top: 0;
   z-index: 100;
   background-color: grey;
-  width: 100%;
+  width: 100vw;
   padding: 0;
   margin: 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.nav-left{
-  
+#nav-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-left: 1rem;
+}
+#nav-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+#nav-right > * {
+  margin-right: 1rem;
+  align-items: center;
 }
 /* --------------------------------------------- */
 .hero-background{
@@ -29,7 +41,6 @@
   background-color: yellow;
 }
 #hero-right{
-
   left: 50vw;
   background-color: white;
 }
