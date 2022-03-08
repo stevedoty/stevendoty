@@ -2,8 +2,14 @@
   text-align: center;
 }
 /* --------------------------------------------- */
+.Navbar{
 
-
+}
+.Navbar ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 /* --------------------------------------------- */
 
 
