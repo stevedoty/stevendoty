@@ -49,3 +49,4 @@ jobs:
       with:
         path: '/build'
         destination: 'stevendoty'
+        parent: false
