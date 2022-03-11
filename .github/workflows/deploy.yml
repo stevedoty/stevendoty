@@ -41,4 +41,4 @@ jobs:
           service_account_key: ${{ secrets.GCP_SA_KEY }}
           export_default_credentials: true
       - name: Deploy Site
-        run: gsutil rsync -R build gs://stevendoty/
+        run: gsutil rsync -R src gs://stevendoty/
