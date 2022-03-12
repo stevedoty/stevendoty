@@ -1,6 +1,13 @@
 import React from 'react';
 
-let technologies = []
+let technologies = [
+  {
+    title:"Front End",
+    list:[
+      
+    ]
+  }
+]
 
 const Technologies = () => {
   return (
