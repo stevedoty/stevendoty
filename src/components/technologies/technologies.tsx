@@ -42,7 +42,7 @@ const Technologies = () => {
         <h1>Technologies</h1>
         <div id="technologies-list-container">
           {technologies.map((item, key) => (
-            <div className="technologies-item">
+            <div className="technologies-item" key={key}>
               <div>Title</div>
               <ul>
                 <li>item1</li>
