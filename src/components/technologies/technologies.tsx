@@ -1,5 +1,7 @@
 import React from 'react';
 
+let technologies = []
+
 const Technologies = () => {
   return (
     <div className="Technologies">
