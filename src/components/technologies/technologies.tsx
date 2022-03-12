@@ -4,11 +4,35 @@ let technologies = [
   {
     title:"Front End",
     list:[
-"one",
-"two",
-"three"
+      "one",
+      "two",
+      "three"
     ]
-  }
+  },
+  {
+    title:"Back End",
+    list:[
+      "one",
+      "two",
+      "three"
+    ]
+  },
+  {
+    title:"Testing/Deployment",
+    list:[
+      "one",
+      "two",
+      "three"
+    ]
+  },
+  {
+    title:"Developer Tools",
+    list:[
+      "one",
+      "two",
+      "three"
+    ]
+  },
 ]
 
 const Technologies = () => {
