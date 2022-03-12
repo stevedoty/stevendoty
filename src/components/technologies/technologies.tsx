@@ -43,11 +43,11 @@ const Technologies = () => {
         <div id="technologies-list-container">
           {technologies.map((item, key) => (
             <div className="technologies-item" key={key}>
-              <div>Title</div>
+              <div>{item.title}</div>
               <ul>
-                <li>item1</li>
-                <li>item2</li>
-                <li>item3</li>
+                {item.list.map((subitem,key) => (
+                  <li key={key}>{subitem}</li>
+                ))}
               </ul>
             </div>
           ))}
