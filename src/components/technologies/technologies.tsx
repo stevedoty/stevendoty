@@ -4,33 +4,49 @@ let technologies = [
   {
     title:"Front End",
     list:[
-      "one",
-      "two",
-      "three"
+      "Javascript",
+      "Typescript",
+      "(ES7)",
+      "React",
+      "HTML5",
+      "CSS3",
+      "Flexbox",
+      "CSS Grid",
+      "jQuery",
+      "Bootstrap",
+      "MaterialUI"
     ]
   },
   {
     title:"Back End",
     list:[
-      "one",
-      "two",
-      "three"
+      "Node",
+      "Express",
+      "MySQL",
+      "MongoDB",
+      "Python"
     ]
   },
   {
     title:"Testing/Deployment",
     list:[
-      "one",
-      "two",
-      "three"
+      "Docker",
+      "Jest",
+      "Firebase",
+      "Google Cloud Server",
+      "(CI/CD)"
     ]
   },
   {
     title:"Developer Tools",
     list:[
-      "one",
-      "two",
-      "three"
+      "Vim",
+      "Git",
+      "Webpack",
+      "Babel",
+      "npm",
+      "yarn",
+      "Agile methodology"
     ]
   },
 ]
