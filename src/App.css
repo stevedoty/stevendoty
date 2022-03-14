@@ -39,7 +39,7 @@
 }
 #hero-left{
   left: 0;
-  background-color: yellow;
+  background-color: #FAD02C;
 }
 #hero-right{
   left: 50vw;
@@ -71,7 +71,7 @@
   top: 50%;
   width: 50%;
   padding: 2.5rem 4rem;
-  border: 2px solid yellow;
+  border: 2px solid #FAD02C;
   border-left: none;
   text-align: left;
 }
