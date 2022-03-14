@@ -80,14 +80,16 @@
   border-left: none;
   text-align: left;
 }
-#about-container h1{
-  margin: 0;
+.about-header{
+  margin: 0 0 0.1rem 0;
+
 }
-#about-container h3{
-  margin: 0;
+.about-subheader{
+  margin: 0 0 0.3rem 0;
 }
-#about-container p{
+.about-paragraph{
   margin: 0;
+  text-align: justify;
 }
 /* --------------------------------------------- */
 #technologies-list-container{
