@@ -55,6 +55,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 300%;
+}
+#hero-overlay-right{
+  background-color: lightblue;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  transform: translate(25%,162%);
 }
 /* --------------------------------------------- */
 
