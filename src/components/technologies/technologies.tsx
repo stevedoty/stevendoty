@@ -1,55 +1,8 @@
 import React from 'react';
+import {MAIN_DATA} from '../../data';
+console.log(MAIN_DATA);
 
-let technologies = [
-  {
-    title:"Front End",
-    list:[
-      "Javascript",
-      "Typescript",
-      "(ES7)",
-      "React",
-      "HTML5",
-      "CSS3",
-      "Flexbox",
-      "CSS Grid",
-      "jQuery",
-      "Bootstrap",
-      "MaterialUI"
-    ]
-  },
-  {
-    title:"Back End",
-    list:[
-      "Node",
-      "Express",
-      "MySQL",
-      "MongoDB",
-      "Python"
-    ]
-  },
-  {
-    title:"Testing/Deployment",
-    list:[
-      "Docker",
-      "Jest",
-      "Firebase",
-      "Google Cloud Server",
-      "(CI/CD)"
-    ]
-  },
-  {
-    title:"Developer Tools",
-    list:[
-      "Vim",
-      "Git",
-      "Webpack",
-      "Babel",
-      "npm",
-      "yarn",
-      "Agile methodology"
-    ]
-  },
-]
+let technologies = MAIN_DATA.TECHNOLOGIES_DATA;
 
 const Technologies = () => {
   return (
